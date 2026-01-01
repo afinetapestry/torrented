@@ -6,10 +6,10 @@
 
 using namespace std;
 
-// rtorrented directory /home/rtorrent/ ~ *
+// torrented directory /home/rtorrent/ ~ *
 int main(int argc, const char * argv[]) {
 	if (argc < 5) {
-		cerr << "Usage: rtorrented property old new files\n\n";
+		cerr << "Usage: torrented property old new files\n\n";
 		cerr << "Properties:\ndirectory\nannounce\n...\n";
 		return EXIT_FAILURE;
 	}
